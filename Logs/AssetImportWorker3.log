@@ -1,0 +1,367 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52976
+Successfully changed project path to: C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 115.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007448 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\OneDrive\Documents\unity_stuff\2d_sample\Rabby and Turty's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\OneDrive\Documents\unity_stuff\2d_sample\Rabby and Turty's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.8 KB). Loaded Objects now: 4506.
+Memory consumption went from 152.3 MB to 152.0 MB.
+Total: 3.329300 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.716700 ms  DeleteObjects: 0.158200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1255158.933504 seconds.
+  path: Assets/Art/Levels/RandTMap_0.asset
+  artifactKey: Guid(54b299e9dedb4434d9911334c21e6610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_0.asset using Guid(54b299e9dedb4434d9911334c21e6610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782c292f5019f070bf4921542af1afb4') in 0.070784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Levels/RandTMap_16.asset
+  artifactKey: Guid(c90d090dc7fb8224eadc305946a1962a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_16.asset using Guid(c90d090dc7fb8224eadc305946a1962a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0185507fbea23cb65d3944a103ee1950') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Levels/RandTMap_23.asset
+  artifactKey: Guid(d1c15daade453c7419d82790c28d3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_23.asset using Guid(d1c15daade453c7419d82790c28d3c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb25d4355262d8f833d3c75c0df55384') in 0.006175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Levels/RandTMap_25.asset
+  artifactKey: Guid(80f98f71950c15f45b479940b0295cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_25.asset using Guid(80f98f71950c15f45b479940b0295cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4033b94b5ac9b9cd79184856467695d0') in 0.006835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Levels/RandTMap_27.asset
+  artifactKey: Guid(9f2f580127578e04a8f28b016bc36780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_27.asset using Guid(9f2f580127578e04a8f28b016bc36780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544325c1f0cb5d5e6d063dc64419224') in 0.006603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Levels/RandTMap_53.asset
+  artifactKey: Guid(0538086ef1f642f44bdd42a1f084d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_53.asset using Guid(0538086ef1f642f44bdd42a1f084d434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2ab5a8a12a26aa2004b9a3ba965ccf') in 0.008322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Levels/RandTMap_22.asset
+  artifactKey: Guid(1bf67ace9faa0824fbdd7aad1b5673ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_22.asset using Guid(1bf67ace9faa0824fbdd7aad1b5673ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc91092ca216ae7f8ed99081242f2dd') in 0.007138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Levels/RandTMap_33.asset
+  artifactKey: Guid(c8326e941392f2345b98388fbf5f7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_33.asset using Guid(c8326e941392f2345b98388fbf5f7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37decdec287329003475abeb36092ba') in 0.007009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Levels/RandTMap_30.asset
+  artifactKey: Guid(e58b6eec5e5f0f74dbe51ae0726603a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_30.asset using Guid(e58b6eec5e5f0f74dbe51ae0726603a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bcecd37230b414fa8b9d078bdb1a92') in 0.010382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_1.asset
+  artifactKey: Guid(72791bd02caba9b4aa1b91c173408902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_1.asset using Guid(72791bd02caba9b4aa1b91c173408902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1105360e65ba75c76a20e85f5b619a42') in 0.007571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Levels/RandTMap_7.asset
+  artifactKey: Guid(1720f3e115fbee549b2dfa693c53ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_7.asset using Guid(1720f3e115fbee549b2dfa693c53ef0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2060bf20863ec0e47381a49329eab0') in 0.007199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Levels/RandTMap_18.asset
+  artifactKey: Guid(1a2938b4d3eb1054ab5fd66d0a86af65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_18.asset using Guid(1a2938b4d3eb1054ab5fd66d0a86af65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb3a3231291bd6209df39f3a9390ce0') in 0.008106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Levels/RandTMap_26.asset
+  artifactKey: Guid(9c94861be72580f479e1b05762ceabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_26.asset using Guid(9c94861be72580f479e1b05762ceabe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cf2ae1ae30a1d7a9abe21d9d90cacc') in 0.008097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Levels/RandTMap_56.asset
+  artifactKey: Guid(54e159f6cb855b34ba6b450af716142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_56.asset using Guid(54e159f6cb855b34ba6b450af716142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0c6ce840700f86caa54e1555aca830') in 0.006552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Levels/RandTMap_50.asset
+  artifactKey: Guid(d2e9c07f830ae5840b5a4daa0c80005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_50.asset using Guid(d2e9c07f830ae5840b5a4daa0c80005e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb977cdf9776af6857d5ce1bd86c646') in 0.006806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Levels/RandTMap_47.asset
+  artifactKey: Guid(31a322472f3e90e4aa6ec1878a53f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_47.asset using Guid(31a322472f3e90e4aa6ec1878a53f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c235deafff0f282a19f668aee8256e0c') in 0.011750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Levels/RandTMap_19.asset
+  artifactKey: Guid(a770348d3f4b37f4c9ee01d6e90dfad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_19.asset using Guid(a770348d3f4b37f4c9ee01d6e90dfad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9cc87889ee38dc3c8017e23c030760') in 0.007410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_8.asset
+  artifactKey: Guid(b1ed0cca4f8a78b43bd5dd46b17adf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_8.asset using Guid(b1ed0cca4f8a78b43bd5dd46b17adf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429ae193a743a00d19e68255f72ebe0a') in 0.010424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Levels/RandTMap_5.asset
+  artifactKey: Guid(02bfddd3809f1754596361fce68f7c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_5.asset using Guid(02bfddd3809f1754596361fce68f7c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e3d3cc1ff1ab5de1b76de9001096ae') in 0.007237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Levels/RandTMap_39.asset
+  artifactKey: Guid(dcae0ab305c82734cac64316d1abd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_39.asset using Guid(dcae0ab305c82734cac64316d1abd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201f2b391f40a30fc195b22b6bee4c25') in 0.007294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Levels/RandTMap_51.asset
+  artifactKey: Guid(ca3fe21a3c498284bbbbfd896fee69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_51.asset using Guid(ca3fe21a3c498284bbbbfd896fee69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0efee873baedacf2d6e2b502f6f4140') in 0.006428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Levels/RandTMap_29.asset
+  artifactKey: Guid(df8dcbf21bc8e9a4d9311a5b2405e862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_29.asset using Guid(df8dcbf21bc8e9a4d9311a5b2405e862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59fd40ad41fd0bb9b13a359bb75f566') in 0.011372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Levels/RandTMap_41.asset
+  artifactKey: Guid(eba520933d683074ba2b982d72b8bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_41.asset using Guid(eba520933d683074ba2b982d72b8bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4097f4605fcde61cf9eb56a8980dca99') in 0.007667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Levels/RandTMap_17.asset
+  artifactKey: Guid(f85298b6563d2394dba9f03c04691ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_17.asset using Guid(f85298b6563d2394dba9f03c04691ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc37c962152104d0be9ddcbc2fedc158') in 0.007003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Levels/RandTMap_15.asset
+  artifactKey: Guid(9e739f15cef51124789fcf75e9da6ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_15.asset using Guid(9e739f15cef51124789fcf75e9da6ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebb4862be34945b6772e82acb99eb23') in 0.006662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Levels/RandTMap_34.asset
+  artifactKey: Guid(64fab0b10a318c24cbb071044a75f300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_34.asset using Guid(64fab0b10a318c24cbb071044a75f300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a921589d6e9954cc55ad8ad580ca0d1') in 0.006842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Levels/RandTMap_40.asset
+  artifactKey: Guid(f115df6782b28874c92465e3163e9b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_40.asset using Guid(f115df6782b28874c92465e3163e9b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3971624e96988c20219cfb5edf0e3e') in 0.008958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Levels/RandTMap_48.asset
+  artifactKey: Guid(c5ea4d004ea672846933a0859652b5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_48.asset using Guid(c5ea4d004ea672846933a0859652b5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3da1242f26bb31bf462b76eb81f102') in 0.007532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Levels/RandTMap_36.asset
+  artifactKey: Guid(8455260606bbbe6438c0f72bbf33dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_36.asset using Guid(8455260606bbbe6438c0f72bbf33dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef346edf07a97d094e389d9041f4a7') in 0.006846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Levels/RandTMap_38.asset
+  artifactKey: Guid(52a1be98b26d59c4fbed6d3aca116aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_38.asset using Guid(52a1be98b26d59c4fbed6d3aca116aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd50e924863f7af37295c9492496ba8') in 0.007021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.259958 seconds.
+  path: Assets/Art/Levels/RandTMap_62.asset
+  artifactKey: Guid(51bb31cd8c0ccc240be48311ecbf36b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_62.asset using Guid(51bb31cd8c0ccc240be48311ecbf36b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e768af6ef80f5323c72e1303f5f0a951') in 0.011309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_66.asset
+  artifactKey: Guid(e3bd9e8db41bc1d4d830f9fa688b5b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_66.asset using Guid(e3bd9e8db41bc1d4d830f9fa688b5b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615d1587e2b873bec958d18841386cb1') in 0.014651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Levels/RandTMap_65.asset
+  artifactKey: Guid(7e7d960dfcac78a47b55aa382001065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_65.asset using Guid(7e7d960dfcac78a47b55aa382001065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fe423e68b36bdb09edd5ad9cfc45e7') in 0.015241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Levels/RandTMap_70.asset
+  artifactKey: Guid(ac2aaed6ec259bd459288218d536c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_70.asset using Guid(ac2aaed6ec259bd459288218d536c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a63f86c3ef897e387a7567ef31a03f2') in 0.014507 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

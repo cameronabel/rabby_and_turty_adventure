@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52976
+Successfully changed project path to: C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 115.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cameron/OneDrive/Documents/unity_stuff/2d_sample/Rabby and Turty's Adventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007570 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\OneDrive\Documents\unity_stuff\2d_sample\Rabby and Turty's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Cameron\OneDrive\Documents\unity_stuff\2d_sample\Rabby and Turty's Adventure\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.8 KB). Loaded Objects now: 4506.
+Memory consumption went from 152.3 MB to 152.0 MB.
+Total: 3.226900 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.625000 ms  DeleteObjects: 0.131300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1255158.933214 seconds.
+  path: Assets/Art/Levels/RandTMap.png
+  artifactKey: Guid(3a7b60c8ee45af04db310182e35ab46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap.png using Guid(3a7b60c8ee45af04db310182e35ab46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdecd6dcbb937fbd234ef46c431d341') in 0.308673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Levels/RandTMap_58.asset
+  artifactKey: Guid(f26437274eb762c45a6f930c9a5ea8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_58.asset using Guid(f26437274eb762c45a6f930c9a5ea8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8a5dd40dfe42c1c2cc8c99d62695e') in 0.025978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Levels/RandTMap_37.asset
+  artifactKey: Guid(d9d8de3a2b61ac8408ba833200885e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_37.asset using Guid(d9d8de3a2b61ac8408ba833200885e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83351f7435e2b23de5a99f99146a0f59') in 0.006687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Levels/RandTMap_6.asset
+  artifactKey: Guid(29563fa51fac0494290de7e8950a71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_6.asset using Guid(29563fa51fac0494290de7e8950a71a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af3acf36a47c91b46b7e38fc44b5254') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Levels/RandTMap_3.asset
+  artifactKey: Guid(f8eed84faadd50a4ca5dca1ac6640011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_3.asset using Guid(f8eed84faadd50a4ca5dca1ac6640011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb6991289632b86fd3deb804ad241e7') in 0.011332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Levels/RandTMap_57.asset
+  artifactKey: Guid(05104d88f0b732b429f685a4c358eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_57.asset using Guid(05104d88f0b732b429f685a4c358eb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd40af160ef322ccd39a801efa7e55a') in 0.012210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_4.asset
+  artifactKey: Guid(8f38093348c6b994aae93517800cbbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_4.asset using Guid(8f38093348c6b994aae93517800cbbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101880fb48febb3a1c50d0e4b346a2c2') in 0.007821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Levels/RandTMap_28.asset
+  artifactKey: Guid(ad8d4c117b5f3ed4d8e4be2bbb9d055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_28.asset using Guid(ad8d4c117b5f3ed4d8e4be2bbb9d055c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848f91fbf89f4b5a92ef76bf93b92ce5') in 0.007510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_52.asset
+  artifactKey: Guid(6a3b6e7ee9107b04988aff424e2c25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_52.asset using Guid(6a3b6e7ee9107b04988aff424e2c25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b204e436e5c52c90d68a2598e34b5fa9') in 0.007035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Levels/RandTMap_14.asset
+  artifactKey: Guid(336162478ed096c48af70eb8960c427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_14.asset using Guid(336162478ed096c48af70eb8960c427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3fe0963a93d6955fad607bb6287d29') in 0.007873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Levels/RandTMap_55.asset
+  artifactKey: Guid(977d2bcf9a3e0a74ab6a4626656e3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_55.asset using Guid(977d2bcf9a3e0a74ab6a4626656e3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7916d29bc177b39d13b18ca6e80925') in 0.006654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.260903 seconds.
+  path: Assets/Art/Levels/RandTMap_61.asset
+  artifactKey: Guid(baa4f7ef83c6c8b41aa96475d5a2511b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_61.asset using Guid(baa4f7ef83c6c8b41aa96475d5a2511b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e78c92d28f0df48390bc9c949fbf18d') in 0.012008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Levels/RandTMap_68.asset
+  artifactKey: Guid(e2228ef27e63adc47b5adcf0f3c3a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_68.asset using Guid(e2228ef27e63adc47b5adcf0f3c3a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8be7fbceb169b52379550799f874a0e') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Levels/RandTMap_67.asset
+  artifactKey: Guid(e829c5ca6f9bd7341987b664ec4ffc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_67.asset using Guid(e829c5ca6f9bd7341987b664ec4ffc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae387d86be738fda7e09f14d1bd480b8') in 0.013691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Levels/RandTMap_69.asset
+  artifactKey: Guid(a4f47c0dcc54afb4da36a3b54c2c7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/RandTMap_69.asset using Guid(a4f47c0dcc54afb4da36a3b54c2c7d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b0c8b8cb8feaed4ad04d6482d3fcc0') in 0.013816 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
