@@ -1151,3 +1151,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1652.029423 seconds.
+  path: Assets/Rabby/Rabby - Idle.png
+  artifactKey: Guid(49d594dabafe300428a1a31322dad133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabby/Rabby - Idle.png using Guid(49d594dabafe300428a1a31322dad133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d39013a09038b4228ff3060a3f1007') in 0.078894 seconds 
