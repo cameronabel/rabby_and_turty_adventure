@@ -31,7 +31,7 @@ public class CameraController : MonoBehaviour
             transform.position.y - lastPos.y
             );
 
-        farBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f);
+        farBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f) * 0.9f;
         middleBackground.position += new Vector3(amountToMove.x, amountToMove.y, 0f) * 0.5f;
 
         lastPos = transform.position;

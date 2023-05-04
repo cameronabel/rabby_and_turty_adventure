@@ -60,6 +60,16 @@
     <Compile Include="Assets\Scripts\CharacterSwap.cs" />
     <Compile Include="Assets\Scripts\RabbitController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Switch.cs" />
+    <Compile Include="Assets\Scripts\ExitDoor.cs" />
+    <Compile Include="Assets\Scripts\DoorAnimator.cs" />
+    <Compile Include="Assets\Scripts\Slider.cs" />
+    <Compile Include="Assets\Scripts\PullSwitch.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\SliderVert.cs" />
+    <Compile Include="Assets\Scripts\Lever.cs" />
+    <Compile Include="Assets\Scripts\LevelScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0e0bac32118a44395b76215f00dd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rabby: {fileID: 1776530780188062500, guid: 2e54e0237cec7074bb781493c1a03ab5, type: 3}
-  turty: {fileID: 2401775921923827923, guid: c9906eda167a38843b1628272196d21e, type: 3}
+  rabby: {fileID: 0}
+  turty: {fileID: 0}
+  cameraController: {fileID: 0}

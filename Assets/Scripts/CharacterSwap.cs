@@ -14,6 +14,8 @@ public class CharacterSwap : MonoBehaviour
     void Start()
     {
         turty.activeCharacter = true;
+        rabby.spriteRenderer.color = new Color(.5f, .5f, .5f, 1f);
+        turty.spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
         cameraController.target = turty.transform;
     }
 
@@ -31,13 +33,17 @@ public class CharacterSwap : MonoBehaviour
         if (turty.activeCharacter)
         {
             turty.activeCharacter = false;
+            turty.spriteRenderer.color = new Color(.5f, .5f, .5f, 1f);
             rabby.activeCharacter = true;
+            rabby.spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
             cameraController.target = rabby.transform;
         }
         else
         {
             rabby.activeCharacter = false;
+            rabby.spriteRenderer.color = new Color(.5f, .5f, .5f, 1f);
             turty.activeCharacter = true;
+            turty.spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
             cameraController.target = turty.transform;
         }
     }
