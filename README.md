@@ -1,7 +1,7 @@
 # Rabby and Turty: Laboratory Escape
 ### Epicodus Team Week #2
 
-<img src="https://ibb.co/PGw6MNv" width="200"/>
+<img src="https://i.imgur.com/mJZ9BlC.png" width="200"/>
 ---
 ### By Ambi Hidalgo, Geoffrey Gao, Cameron Abel, Dani Steely, Noah Cowan
 ### ambio.pk@gmail.com | geoffreygao1@gmail.com | cameronabel@gmail.com | danisteelyart@gmail.com | nsncowan@gmail.com
