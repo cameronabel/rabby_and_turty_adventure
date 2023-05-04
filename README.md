@@ -8,7 +8,7 @@
 
 GitHub
 
-| [Ambi](https://github.com/ambibma)| [Geoffrey](https://github.com/geoffreygao1)| [Cameron](https://github.com/cameronabel)| [Dani](https://github.com/DaniS91) | [Noah](https://github.com/nsncowan) | 
+| [Ambi](https://github.com/ambibma) | [Geoffrey](https://github.com/geoffreygao1) | [Cameron](https://github.com/cameronabel) | [Dani](https://github.com/DaniS91) | [Noah](https://github.com/nsncowan) |
 ---
 # About the Development Process
 Raby and Turty is a Team Week #2 group project created for the Dino Cohort 2022-2023 at Epicodus. Students had two weeks to colloborate on a application of their choosing. We decided to create a video game in Unity to demonstrate and apply our learned knowledge of C#. Each team member is soley responsible for the creation to of this game. From 3D photoscanning models into 2D sprites, to AI generated tilemaps and enviorments clipped and customized to meet our standards. Music and sounds were originally recorded to be put into the game as well as menu assets. 
